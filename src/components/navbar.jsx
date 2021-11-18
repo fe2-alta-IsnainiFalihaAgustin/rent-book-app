@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Navbar, Nav, Container, Form, FormControl, Button} from "react-bootstrap"
+// import {Link} from 'react-router-dom'
 
 class Navbarr extends Component {
   render() {
@@ -7,15 +8,21 @@ class Navbarr extends Component {
       <div>
         <div className="header"></div>
 
-        <div className="pt-4">
+        <div className="pt-4 search-bar">
         <Navbar bg="light" expand="lg">
          <Container fluid>
           <Navbar.Brand href="#" className="px-5"><b>LOGO</b></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="me-auto"
-            ></Nav>
+            <Nav className="me-auto" >
+              <Nav.Link href="/">Home
+                {/* <Link className="navbar-link" to="/"> Home </Link> */}
+              </Nav.Link>
+              <Nav.Link href="/rent">Rent
+                {/* <Link className="navbar-link ms-5" to="/"> Rent </Link> */}
+              </Nav.Link>
+
+            </Nav>
             <Form className="paling-atas w-50 d-flex px-5">
               <FormControl
                 type="search"

@@ -1,0 +1,44 @@
+{
+  "listBook": [
+    {
+      "id": 1,
+      "title": "Toy Story",
+      "imgUrl": "https://tse3.mm.bing.net/th?id=OIP.gAHk8pbMiwvMpeWh5rHVzQHaLD&pid=Api&P=0&w=300&h=300"
+    },
+    {
+      "id": 2,
+      "title": "Frozen",
+      "imgUrl": "https://gpu.id/data-gpu/images/uploads/dirimg_buku/re_buku_picture_87398.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Coco",
+      "imgUrl": "https://tse4.mm.bing.net/th?id=OIP.PNsCCXdO4Qs7lI6tTCI0sQHaK5&pid=Api&P=0&w=300&h=300"
+    },
+    {
+      "id": 4,
+      "title": "Moana",
+      "imgUrl": "https://tse1.mm.bing.net/th?id=OIP.jq-EDPcaGaaiMwmBpgy6TwHaLJ&pid=Api&P=0&w=300&h=300"
+    },
+    {
+      "id": 5,
+      "title": "Bulan Terbelah di Langit Amerika",
+      "imgUrl": "http://d.gr-assets.com/books/1401419779l/22374443.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Pergi",
+      "imgUrl": "https://www.goodnewsfromindonesia.id/uploads/post/large-pergi-f4cf01d2dca5f281b8c529a9d8dc6d85.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Bulan",
+      "imgUrl": "https://s0.bukalapak.com/img/579487825/w-1000/Paket_Novel_Bumi_Dan_Bulan___Tere_Liye__Books_shop.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Bintang",
+      "imgUrl": "https://tse3.mm.bing.net/th?id=OIP.gr8-zTJxXkNUamchhasRkAHaK-&pid=Api&P=0&w=300&h=300"
+    }
+  ]
+}

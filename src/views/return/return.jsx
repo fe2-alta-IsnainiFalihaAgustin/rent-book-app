@@ -3,19 +3,32 @@ import { Button, Table } from "react-bootstrap";
 import "./return.css"
 
 class Returnn extends Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      listTypeBook: [
+        'Science',
+        'Computer',
+        'Kids',
+        'Social',
+        'Leadership'
+      ]
+    };
+  }
+
   render() {
     return (
       <div>
         
         <div className="w-100 py-5 return-div">
 
-          <div className="return-button w-100 d-flex justify-content-around align-items-center my-4 p-4 border">
-            <Button variant="light"><b>Science</b></Button>
-            <Button variant="light"><b>Computer</b></Button>
-            <Button variant="light"><b>Kids</b></Button>
-            <Button variant="light"><b>Social</b></Button>
-            <Button variant="light"><b>Leadership</b></Button>
-          </div>
+        <div className="return-button w-100 d-flex justify-content-around align-items-center my-4 p-4 border">
+            {this.state.listTypeBook.map((el, i) => (
+              <Button variant="light" key={i} ><b>{ el }</b></Button>
+            ))}
+         </div>
 
           <div className=" d-flex justify-content-between flex-wrap my-5 p-5 border Table-color">
           <Table striped bordered hover>

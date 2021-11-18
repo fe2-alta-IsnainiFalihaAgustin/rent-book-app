@@ -4,6 +4,7 @@
 }
 
 .home-div {
+  /* position: absolute; */
   padding-left: 10vw;
   padding-right: 10vw;
   background-color: rgb(104, 103, 103);
@@ -20,7 +21,7 @@
 
 .home-card {
   width: 15vw;
-
+  
 }
 
 .header {
@@ -29,6 +30,7 @@
   height: 200px;
   margin-top: -5vw;
   background-color: rgb(58, 58, 59);
+ 
 }
 
 .footer {

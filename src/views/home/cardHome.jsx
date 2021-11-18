@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Card } from "react-bootstrap"
+// import Detaill from './views/detail/detail'
 
 class CardHome extends Component {
 

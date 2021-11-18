@@ -1,20 +1,31 @@
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import "./App.css";
 import Home from "./views/home"
-import Navbarr from './components/navbar'
-// import Detaill from './views/details/detail.jsx'
+import Rentt from "./views/rent/rent";
+import Detaill from './views/detail/detail'
 // import Returnn from "./views/return/return";
-// import Rentt from "./views/rent/rent";
 
 function App() {
   return (
     <div className="App">
+
+      <Router>
+        <Switch>
+         {/* <Route path="book/:id"><BookDetail /></Route>  */}
+         <Route exact path="/rent"><Rentt /></Route>
+          <Route exact path="/"><Home /></Route>
+          <Route exact path="/detail"><Detaill /></Route>
+        </Switch> 
     
-   
-      <Navbarr />
-      <Home />
-      {/* <Detaill /> */}
-      {/* <Returnn /> */}
-      {/* <Rentt /> */}
+        {/* <Navbarr /> */}
+        {/* <Home /> */}
+
+        
+        {/* <Detaill />  */}
+        {/* <Returnn />  */}
+        {/* <Rentt /> */}
+      </Router>
     </div>
   );
 }
